@@ -11,7 +11,7 @@
 	<groupId>com.myapp</groupId>
 	<artifactId>plcconnect</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>plcconnect</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
