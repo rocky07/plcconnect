@@ -14,6 +14,7 @@ public class Message {
     private Integer cycleCount;
     private Integer coilCount;
     private Integer cycleTime;
+    private String machineId;
 
     
     public long getId() {
@@ -45,6 +46,12 @@ public class Message {
     }
     public void setCycleTime(Integer cycleTime) {
         this.cycleTime = cycleTime;
+    }
+    public void setMachineId(String machineId){
+    	this.machineId=machineId;
+    }
+    public String getMachineId(){
+    	return this.machineId;
     }
 
     
